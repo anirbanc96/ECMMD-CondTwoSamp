@@ -13,7 +13,7 @@ angles <- c(-pi/3, -pi/4, -pi/6, -pi/12, 0, pi/12, pi/6, pi/4, pi/3)
 angle.labels <- c(expression(paste(-pi,"/3")), expression(paste(-pi,"/4")),
                   expression(paste(-pi,"/6")), expression(paste(-pi,"/12")), "0",
                   expression(paste(pi,"/12")), expression(paste(pi,"/6")),
-                  expression(paste(pi,"/4")), expression(paste(-pi,"/3")))
+                  expression(paste(pi,"/4")), expression(paste(pi,"/3")))
 
 power.data <- power.data %>%
   mutate(angles = angles, .before = mu1)
