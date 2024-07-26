@@ -59,8 +59,8 @@ power.plot <- power.data %>%
                       breaks = c("n1k1", "n1k2", "n2k1", "n2k2"),
                       values = c("deepskyblue", "dodgerblue1", "dodgerblue3",
                                  "darkorchid4"),
-                      labels = c("n = 1000, k = 50", "n = 1000, k = 100",
-                                 "n = 2500, k = 50", "n = 2500, k = 100")) +
+                      labels = c("n = 1000, K = 50", "n = 1000, K = 100",
+                                 "n = 2500, K = 50", "n = 2500, K = 100")) +
   scale_x_continuous(breaks = angles, labels = angle.labels) +
   labs(title = TeX(r'(Performance of ECMMD Test with $\mu = 0.5$)'), x = TeX(r'($\theta$)'),
        y = TeX(r'(Proportion of Rejection)'), color = "Legend Title\n") +
