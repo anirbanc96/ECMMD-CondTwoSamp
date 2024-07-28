@@ -71,5 +71,5 @@ Power_Plot
 
 ggsave("CGOF_PowerPlot.pdf",
        plot = Power_Plot, 
-       width = 4,
-       height = 3)
+       width = 5,
+       height = 4)

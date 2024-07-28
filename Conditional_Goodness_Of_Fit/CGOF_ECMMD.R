@@ -103,7 +103,8 @@ test_type_list <- c("null", "alternative")
 for (test_type in test_type_list){
   
   p_value <- list(NN_10 = matrix(0, B, length(N_list)),
-                  NN_25 = matrix(0, B, length(N_list)),
+                  NN_20 = matrix(0, B, length(N_list)),
+                  NN_30 = matrix(0, B, length(N_list)),
                   NN_40 = matrix(0, B, length(N_list)))
   
   p_value <- lapply(1:length(K),
