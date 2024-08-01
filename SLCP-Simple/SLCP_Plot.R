@@ -4,14 +4,14 @@ library(scales)
 require(latex2exp)
 
 SLCP_mdn <- cbind(c("MDN 5", "MDN 10", "MDN 15", "MDN 25"),
-                      read_csv("mdn_numsim_power.csv")[,-1])
+                      read_csv("Data/mdn_numsim_power_SLCPsimple.csv")[,-1])
 colnames(SLCP_mdn) <- c("Estimator", "10000",
                             "25000", "50000", "75000", "100000")
-SLCP_nsf <- cbind(c("NSF 5"), read_csv("nsf_numsim_power.csv")[,-1])
+SLCP_nsf <- cbind(c("NSF 5"), read_csv("Data/nsf_numsim_power_SLCPsimple.csv")[,-1])
 colnames(SLCP_nsf) <- c("Estimator", "10000",
                         "25000", "50000", "75000", "100000")
 SLCP_data <- rbind(SLCP_mdn, SLCP_nsf)
-write_csv(SLCP_data, "SLCP_data.csv")
+write_csv(SLCP_data, "Data/SLCP_data.csv")
 data <- melt(SLCP_data, id = 1)
 colnames(data) <- c("est", "samp_size", "power") 
 
@@ -45,6 +45,6 @@ SLCP_mdn_plot <- data %>%
 
 SLCP_mdn_plot
 
-ggsave(plot = SLCP_mdn_plot, filename = "SLCPplot.pdf", device = "pdf",
+ggsave(plot = SLCP_mdn_plot, filename = "Figures/SLCPplot.pdf", device = "pdf",
        width = 5, height = 4)
 

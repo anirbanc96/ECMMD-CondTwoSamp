@@ -4,14 +4,14 @@ library(scales)
 require(latex2exp)
 
 twomoons_mdn <- cbind(c("MDN 1", "MDN 3", "MDN 5", "MDN 7"),
-                      read_csv("mdn_numsim_power.csv")[,-1])
+                      read_csv("Data/mdn_numsim_power_twomoons.csv")[,-1])
 colnames(twomoons_mdn) <- c("Estimator", "100", "500", "1000", "5000",
                             "10000", "50000", "100000")
-twomoons_nsf <- cbind(c("NSF 5"), read_csv("nsf_numsim_power.csv")[,-1])
+twomoons_nsf <- cbind(c("NSF 5"), read_csv("Data/nsf_numsim_power_twomoons.csv")[,-1])
 colnames(twomoons_nsf) <- c("Estimator", "100", "500", "1000", "5000",
                             "10000", "50000", "100000")
 twomoons_data <- rbind(twomoons_mdn, twomoons_nsf)
-write_csv(twomoons_data, "twomoons_data.csv")
+write_csv(twomoons_data, "Data/twomoons_data.csv")
 data <- melt(twomoons_data, id = 1)
 colnames(data) <- c("est", "samp_size", "power") 
 
@@ -42,6 +42,6 @@ twomoons_mdn_plot <- data %>%
 
 twomoons_mdn_plot
 
-ggsave(plot = twomoons_mdn_plot, filename = "TwoMoonsplot.pdf", device = "pdf",
+ggsave(plot = twomoons_mdn_plot, filename = "Figures/TwoMoonsplot.pdf", device = "pdf",
        width = 5, height = 4)
 
