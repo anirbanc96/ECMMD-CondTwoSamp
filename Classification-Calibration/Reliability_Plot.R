@@ -5,7 +5,6 @@ library(tibble)
 source("Tests_ECE_Isotonic_Reliability.R")
 # upload the bird-cat model
 B <- 100
-set.seed(42)
 # load the data and perform the test
 ## bird & cat
 name_mat <- matrix(c("bird", "cat", 
@@ -32,6 +31,9 @@ index_df <- data.frame(
 )
 
 for (j in 1:ncol(name_mat)) {
+  
+  set.seed(42)
+  
   class_a <- name_mat[1, j]
   class_b <- name_mat[2, j]
   class_a_u <- name_mat_upper[1, j]
