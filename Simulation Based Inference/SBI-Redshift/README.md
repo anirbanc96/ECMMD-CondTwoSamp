@@ -36,4 +36,4 @@ To replicate or explore the experiments:
 
 This subfolder and its contents, including modifications to the Python scripts from the external repository, are licensed under the same terms as the main repository. See the [LICENSE](../../LICENSE) file for details.
 
-The original Python scripts from the external repository retain their original license, which can be found at [External Repository Name](URL-to-external-repo).
+The original Python scripts from the external repository retain their original license, which can be found at [CDE-conformal](https://github.com/zhao-david/CDE-conformal).
