@@ -1,6 +1,6 @@
 # Density Plots: Marginal Density Visualization
 
-This folder contains an R script and images related to the visualization of marginal density at specific values of $\theta$ (theta). The script generates density plots at three different values of $\theta: -\frac{\pi}{3}, 0$ and $\frac{\pi}{3}$.
+This folder contains an R script and images related to the visualization of marginal density at specific values of $\theta$ (theta). The script generates density plots at three different values of $\theta= -\frac{\pi}{3}, 0$ and $\frac{\pi}{3}$.
 
 ## Folder Contents
 
