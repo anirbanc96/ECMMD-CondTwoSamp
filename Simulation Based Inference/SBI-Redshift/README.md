@@ -12,7 +12,7 @@ This subfolder contains two separate experiments from the validation of Conditio
 
 ## Python Scripts
 
-The `scripts` folder includes Python scripts that were adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). These scripts are integral to the operation of the experiments and have been adapted or used directly within the notebooks in both Experiment 1 and Experiment 2.
+The `scripts` folder includes Python scripts that were adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). These scripts are integral to the operation of the experiments and have been used directly within the notebooks in both Experiment 1 and Experiment 2.
 
 ## How to Use
 
