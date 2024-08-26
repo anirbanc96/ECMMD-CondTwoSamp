@@ -40,5 +40,5 @@ All content in this subfolder is licensed under the same terms as the main repos
 ## Acknowledgements
 
 - Thanks to the developers of Google Colab for providing a free and easy-to-use platform with powerful GPUs.
-- - The scripts in `Scripts` in `SBI-Redshift` includes code adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). We would like to thank the original authors for providing the code and making it available under an open-source license, which allowed us to adapt it for our specific needs.
+- The scripts in `Scripts` in `SBI-Redshift` includes code adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). We would like to thank the original authors for providing the code and making it available under an open-source license, which allowed us to adapt it for our specific needs.
 
