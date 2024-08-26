@@ -13,8 +13,8 @@ To replicate this experiment, please note the following:
 ## Folder Contents
 
 - **[SLCP_with_SBI_MDN_and_NSF.ipynb](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/SLCP-Simple/SLCP_with_SBI_MDN_and_NSF.ipynb)**: This notebook conducts the experiment on validation of posterior emulation using the proposed ECMMD based test.
-- **[SLCP_Plot.R]([https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/TwoMoons/TwoMoonsPlot.R](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/SLCP-Simple/SLCP_Plot.R))**: An R script used for plotting the results of the experiment.
-- **[Data]([https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/TwoMoons/Data](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SLCP-Simple/Data))**: Data on proportion of rejections for the MDN and NSF based emulators. `SLCP_data.csv` combines data from both experiments for ease of plotting.
+- **[SLCP_Plot.R](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/SLCP-Simple/SLCP_Plot.R)**: An R script used for plotting the results of the experiment.
+- **[Data](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SLCP-Simple/Data)**: Data on proportion of rejections for the MDN and NSF based emulators. `SLCP_data.csv` combines data from both experiments for ease of plotting.
 - **[Figures]([https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/TwoMoons/Figures](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SLCP-Simple/Figures))**: A folder containing the figures that are included in the related article.
 
 ## License
