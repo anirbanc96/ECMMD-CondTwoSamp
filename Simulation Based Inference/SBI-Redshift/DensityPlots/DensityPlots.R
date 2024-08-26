@@ -72,7 +72,7 @@ z.density.plot <- ggplot(zsample, aes(x=value)) +
   
 z.density.plot
 
-ggsave(plot = z.density.plot, filename = "zdensity_theta-pi2.pdf", device = "pdf",
+ggsave(plot = z.density.plot, filename = "zdensity_theta-pi3.pdf", device = "pdf",
        width = 4, height = 4)
 
 set.seed(1)
@@ -148,5 +148,5 @@ z.density.plot <- ggplot(zsample, aes(x=value)) +
 
 z.density.plot
 
-ggsave(plot = z.density.plot, filename = "zdensity_thetapi2.pdf", device = "pdf",
+ggsave(plot = z.density.plot, filename = "zdensity_thetapi3.pdf", device = "pdf",
        width = 4, height = 4)
