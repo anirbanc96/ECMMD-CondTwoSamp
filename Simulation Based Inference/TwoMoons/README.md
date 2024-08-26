@@ -12,11 +12,11 @@ To replicate this experiment, please note the following:
 
 ## Folder Contents
 
-- **Two_Moons_True_Posterior.ipynb**: This notebook generates the images of the reference posterior (using the `sbibm` pacakge) .
-- **TwoMoons_with_SBI_MDN_and_NSF.ipynb.ipynb**: This notebook conducts the experiment on validation of posterior emulation using the proposed ECMMD based test.
-- **TwoMoonsPlot.R**: An R script used for plotting the results of the experiment.
-- **Data**: Data on proportion of rejections for the MDN and NSF based emulators. `twomoons_data.csv` combines data from both experiments for ease of plotting.
-- **Figures**: A folder containing the figures that are included in the related article.
+- **[Two_Moons_True_Posterior.ipynb](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/TwoMoons/Two_Moons_True_Posterior.ipynb)**: This notebook generates the images of the reference posterior (using the `sbibm` pacakge) .
+- **[TwoMoons_with_SBI_MDN_and_NSF.ipynb](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/TwoMoons/TwoMoons_with_SBI_MDN_and_NSF.ipynb)**: This notebook conducts the experiment on validation of posterior emulation using the proposed ECMMD based test.
+- **[TwoMoonsPlot.R](https://github.com/anirbanc96/ECMMD-CondTwoSamp/blob/main/Simulation%20Based%20Inference/TwoMoons/TwoMoonsPlot.R)**: An R script used for plotting the results of the experiment.
+- **[Data](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/TwoMoons/Data)**: Data on proportion of rejections for the MDN and NSF based emulators. `twomoons_data.csv` combines data from both experiments for ease of plotting.
+- **[Figures](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/TwoMoons/Figures)**: A folder containing the figures that are included in the related article.
 
 ## License
 
