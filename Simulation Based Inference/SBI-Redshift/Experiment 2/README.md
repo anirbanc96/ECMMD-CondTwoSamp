@@ -18,11 +18,15 @@ This folder contains all the necessary files for the experiment. The experiment 
 
 1. **Open `SBI_Redshift_mu05_median_of_difference.ipynb`**:
    - This notebook contains the main experiment. Open it in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment to run the code.
+  
+2. **Dependencies**
 
-2. **Package Requirement: `galsim`**:
+   - The `SBI_Redshift_mu05_median_of_difference.ipynb` notebook relies on Python scripts located in the [Scripts](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Scripts) subfolder of the previous directory. These scripts are essential for the experiment and are expected to be available for the notebook.
+
+3. **Package Requirement: `galsim`**:
    - The experiment requires the `galsim` package, which is installed directly within the notebook. No additional installation steps are necessary if you run the notebook as provided.
 
-3. **Execute the Notebook**:
+4. **Execute the Notebook**:
    - The notebook generates the CSV files mentioned above.
 
 ### Plotting the Results
