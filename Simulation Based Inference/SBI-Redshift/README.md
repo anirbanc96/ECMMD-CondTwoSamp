@@ -6,11 +6,11 @@ This subfolder contains two separate experiments from the validation of Conditio
 
 - **[Experiment1](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%201)**: This subfolder contains all files related to Experiment 1, where comparisons are done for different values of $\mu$, including notebooks, data, and any results generated.
 - **[Experiment2](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%202)**: This subfolder contains all files related to Experiment 2, where comparisons are done for different values of $n$ and $K$, including notebooks, data, and any results generated.
-- **scripts/**: A collection of Python scripts used in both experiments, sourced from an external repository. These scripts provide essential functions and utilities required for running the experiments.
+- **[Scripts](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Scripts)**: A collection of Python scripts used in both experiments, sourced from an external repository. These scripts provide essential functions and utilities required for running the experiments.
 
 ## Python Scripts
 
-The `scripts` folder includes Python scripts that were taken from [External Repository Name](URL-to-external-repo). These scripts are integral to the operation of the experiments and have been adapted or used directly within the notebooks in both Experiment 1 and Experiment 2.
+The `scripts` folder includes Python scripts that were adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). These scripts are integral to the operation of the experiments and have been adapted or used directly within the notebooks in both Experiment 1 and Experiment 2.
 
 ## How to Use
 
@@ -20,7 +20,7 @@ To replicate or explore the experiments:
     - Choose between `Experiment1` and `Experiment2` and navigate to the respective subfolder.
 
 2. **Follow the Instructions**:
-    - Each experiment subfolder contains its own `README.md` file or instructions within the notebook that guide you through running the experiment.
+    - Each experiment subfolder contains its own `README.md` file that guide you through running the experiment.
 
 ## Package Requirement
 
