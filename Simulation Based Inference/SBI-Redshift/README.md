@@ -7,7 +7,7 @@ This subfolder contains two separate experiments from the validation of Conditio
 - **[Experiment1](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%201)**: This subfolder contains all files related to Experiment 1, where comparisons are done for different values of $\mu$, including notebooks, data, and any results generated.
 - **[Experiment2](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%202)**: This subfolder contains all files related to Experiment 2, where comparisons are done for different values of $n$ and $K$, including notebooks, data, and any results generated.
 - **[DensityPlots](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/DensityPlots)**: Contains plots of the marginal density.
-- **[GalaxyImage](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/GalaxyImage)**: Contains images of galaxies with $\lambda = 0.75$ and $\alpha = -\frac{\pi}{4},\frac{\pi}{4}$.
+- **[GalaxyImage](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/GalaxyImage)**: Contains images of galaxies with $\lambda = 0.75$ and $\alpha = -\dfrac{\pi}{4},\dfrac{\pi}{4}$.
 - **[Scripts](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Scripts)**: A collection of Python scripts used in both experiments, sourced from an external repository. These scripts provide essential functions and utilities required for running the experiments.
 
 ## Python Scripts
