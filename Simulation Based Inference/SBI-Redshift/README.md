@@ -1,11 +1,11 @@
-# Experiments Collection
+# Experiment: Validation of Conditional Density for Photometric Redshift
 
 This subfolder contains two separate experiments from the validation of Conditional Density for Photometric Redshift section, organized into individual subfolders, as well as a set of Python scripts sourced from an external repository. The experiments have been conducted using **Google Colab** with a **T4 GPU**.
 
 ## Folder Structure
 
-- **Experiment1/**: This subfolder contains all files related to Experiment 1, where comparisons are done for different values of $\mu$, including notebooks, data, and any results generated.
-- **Experiment2/**: This subfolder contains all files related to Experiment 2, including notebooks, data, and any results generated.
+- **[Experiment1](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%201)**: This subfolder contains all files related to Experiment 1, where comparisons are done for different values of $\mu$, including notebooks, data, and any results generated.
+- **[Experiment2](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift/Experiment%202)**: This subfolder contains all files related to Experiment 2, where comparisons are done for different values of $n$ and $K$, including notebooks, data, and any results generated.
 - **scripts/**: A collection of Python scripts used in both experiments, sourced from an external repository. These scripts provide essential functions and utilities required for running the experiments.
 
 ## Python Scripts
