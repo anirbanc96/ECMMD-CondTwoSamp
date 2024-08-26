@@ -1,0 +1,39 @@
+# Experiments Collection
+
+This subfolder contains two separate experiments from the validation of Conditional Density for Photometric Redshift section, organized into individual subfolders, as well as a set of Python scripts sourced from an external repository. The experiments have been conducted using **Google Colab** with a **T4 GPU**.
+
+## Folder Structure
+
+- **Experiment1/**: This subfolder contains all files related to Experiment 1, where comparisons are done for different values of $\mu$, including notebooks, data, and any results generated.
+- **Experiment2/**: This subfolder contains all files related to Experiment 2, including notebooks, data, and any results generated.
+- **scripts/**: A collection of Python scripts used in both experiments, sourced from an external repository. These scripts provide essential functions and utilities required for running the experiments.
+
+## Python Scripts
+
+The `scripts` folder includes Python scripts that were taken from [External Repository Name](URL-to-external-repo). These scripts are integral to the operation of the experiments and have been adapted or used directly within the notebooks in both Experiment 1 and Experiment 2.
+
+## How to Use
+
+To replicate or explore the experiments:
+
+1. **Navigate to the Experiment Subfolder**:
+    - Choose between `Experiment1` and `Experiment2` and navigate to the respective subfolder.
+
+2. **Follow the Instructions**:
+    - Each experiment subfolder contains its own `README.md` file or instructions within the notebook that guide you through running the experiment.
+
+## Package Requirement
+
+- Any additional package requirements for the experiments are specified within the notebooks or the subfolder-specific `README.md` files.
+- The Python scripts in the `scripts` folder do not require additional installations beyond what is already mentioned in the respective notebooks.
+
+## Notes
+
+- The Python scripts sourced from the external repository have been checked for compatibility with the current experiments. However, if you are running these scripts outside of the provided environment (e.g., Google Colab), please ensure that all dependencies are properly installed.
+- Modifications to the external scripts are documented within the scripts themselves.
+
+## License
+
+This subfolder and its contents, including modifications to the Python scripts from the external repository, are licensed under the same terms as the main repository. See the [LICENSE](../../LICENSE) file for details.
+
+The original Python scripts from the external repository retain their original license, which can be found at [External Repository Name](URL-to-external-repo).
