@@ -1,4 +1,4 @@
-# Experiment: TwoMoons
+# Experiment: Simple Likelihood Complex Posterior (SLCP)
 
 This subfolder contains the files related to the experiment titled **SLCP-simple**. The experiment has been conducted in **Google Colab** using a **T4 GPU**.
 
