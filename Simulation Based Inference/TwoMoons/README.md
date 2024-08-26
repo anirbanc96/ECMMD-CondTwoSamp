@@ -13,7 +13,7 @@ To replicate this experiment, please note the following:
 ## Folder Contents
 
 - **Two_Moons_True_Posterior.ipynb**: This notebook generates the images of the reference posterior (using the `sbibm` pacakge) .
-- **experiment_part2.ipynb**: This notebook conducts the experiment on validation of posterior emulation using the proposed ECMMD based test.
+- **TwoMoons_with_SBI_MDN_and_NSF.ipynb.ipynb**: This notebook conducts the experiment on validation of posterior emulation using the proposed ECMMD based test.
 - **TwoMoonsPlot.R**: An R script used for plotting the results of the experiment.
 - **Data**: Data on proportion of rejections for the MDN and NSF based emulators. `twomoons_data.csv` combines data from both experiments for ease of plotting.
 - **Figures**: A folder containing the figures that are included in the related article.
