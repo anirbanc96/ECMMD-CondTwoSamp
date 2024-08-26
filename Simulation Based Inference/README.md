@@ -22,7 +22,7 @@ To explore or replicate these experiments, follow these steps:
 
 - **[TwoMoons](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/TwoMoons)**: Contains all files related to TwoMoons Benchmarking experiment, including the Jupyter notebooks and R scripts. Further details can be found in the subfolder.
 - **[SLCP-simple](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SLCP-Simple)**: Contains all files related to SLCP Benchmarking experiment, with a similar structure.
-- **[SBI-Redshift](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift)**: Contains all files related to the experiment on validation of Conditional Density for Photometric Redshift. This folder is subdived into two subfolders conatining the Jupyter notebooks and R scripts of the two experiments conducted in the article. Further details can be found in the subfolder. 
+- **[SBI-Redshift](https://github.com/anirbanc96/ECMMD-CondTwoSamp/tree/main/Simulation%20Based%20Inference/SBI-Redshift)**: Contains all files related to the experiment on validation of Conditional Density for Photometric Redshift. This folder is subdived into two subfolders containing the Jupyter notebooks and R scripts of the two experiments conducted in the article. Further details can be found in the subfolder. 
 
 ## Requirements
 
