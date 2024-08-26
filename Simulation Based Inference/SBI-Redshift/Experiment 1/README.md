@@ -16,27 +16,27 @@ This folder contains all the necessary files for the experiment. The experiment 
 
 ### Running the Experiment
 
-1. **Open `experiment.ipynb`**:
+1. **Open `SBI_Redshift_mu_Median_of_Difference.ipynb`**:
    - This notebook contains the main experiment. Open it in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment to run the code.
 
 2. **Package Requirement: `galsim`**:
    - The experiment requires the `galsim` package, which is installed directly within the notebook. No additional installation steps are necessary if you run the notebook as provided.
 
 3. **Execute the Notebook**:
-   - Follow the instructions within the notebook to run the experiment. The notebook processes data and generates outputs, including the CSV files mentioned above.
+   - Follow the instructions within the notebook to run the experiment. The notebook generates the CSV files mentioned above.
 
 ### Plotting the Results
 
 1. **Using the R Script**:
-   - The `plot_results.R` script is used to create a plot based on the data from the experiment. This script requires an R environment.
+   - The `Plot.R` script is used to create a plot based on the data from the experiment. This script requires an R environment.
    - You can run this script in an R-supported environment such as RStudio.
 
 2. **Review the Plot**:
-   - The generated plot is saved as `plot.pdf` and can be viewed directly. This file visualizes the data processed by the R script.
+   - The generated plot is saved as `PowerVsThetaCutoff.pdf` and can be viewed directly. This file visualizes the data processed by the R script.
 
 ## Notes
 
-- The `experiment.ipynb` notebook generates four CSV files (`data1.csv`, `data2.csv`, `data3.csv`, and `data4.csv`) that contain the output data from the experiment. These files are then used for further analysis and plotting.
+- The `SBI_Redshift_mu_Median_of_Difference.ipynb` notebook generates four CSV files (`powermu220.csv`, `powermu2205.csv`, `powermu221.csv`, and `powermu2215.csv`) that contain the output data from the experiment. These files are then used for further analysis and plotting.
 - The `galsim` package is installed within the notebook and is necessary for running the experiment. Ensure the package is installed correctly if you plan to run the notebook outside of Google Colab.
 - The R script is separate from the Jupyter notebook and requires an R environment to run. The plot it generates is saved as a PDF within this folder.
 
