@@ -23,7 +23,7 @@ This folder contains all the necessary files for the experiment. The experiment 
    - The experiment requires the `galsim` package, which is installed directly within the notebook. No additional installation steps are necessary if you run the notebook as provided.
 
 3. **Execute the Notebook**:
-   - Follow the instructions within the notebook to run the experiment. The notebook generates the CSV files mentioned above.
+   - The notebook generates the CSV files mentioned above.
 
 ### Plotting the Results
 
