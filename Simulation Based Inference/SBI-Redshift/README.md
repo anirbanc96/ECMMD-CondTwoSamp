@@ -30,7 +30,7 @@ To replicate or explore the experiments:
 ## Notes
 
 - The Python scripts sourced from the external repository have been checked for compatibility with the current experiments. However, if you are running these scripts outside of the provided environment (e.g., Google Colab), please ensure that all dependencies are properly installed.
-- Modifications to the external scripts are documented within the scripts themselves.
+- The external scripts are adapted from [CDE-conformal](https://github.com/zhao-david/CDE-conformal). Adjustments were made to the original scripts to align them with the unique demands of Experiment 1 and Experiment 2. 
 
 ## License
 
