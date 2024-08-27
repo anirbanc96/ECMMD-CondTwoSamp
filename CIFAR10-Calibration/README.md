@@ -1,6 +1,6 @@
 # Validation of Calibration of CNN using CIFAR-10
 
-This folder contains the necessary files for running a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset, validate the calibration of the model's predictions using an ECMMD-based test, compute Expected Calibration Error (ECE) values, and plot reliability diagrams. The CNN architecture used in this experiment is described in [Paper Title/Reference].
+This folder contains the necessary files for running a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset, validate the calibration of the model's predictions using an ECMMD-based test, compute Expected Calibration Error (ECE) values, and plot reliability diagrams. The CNN architecture used in this experiment is described in our article [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550).
 
 ## Folder Contents
 
