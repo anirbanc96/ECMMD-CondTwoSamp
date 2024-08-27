@@ -1,6 +1,6 @@
 # Experiments in this Subfolder
 
-This subfolder contains experiments on **Simulation Based Inference**, each organized into its own subfolder. All experiments have been conducted in **Google Colab** using a **T4 GPU**.
+This subfolder contains experiments on validation of emulators in **Simulation Based Inference**, each organized into its own subfolder. All experiments have been conducted in **Google Colab** using a **T4 GPU**.
 
 ## How to Use
 
