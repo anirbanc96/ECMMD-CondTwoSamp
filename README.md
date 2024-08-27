@@ -69,5 +69,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you use this code in your research, please cite the paper:
 
-[Paper Citation in your preferred format]
+[@article{chatterjee2024kernel,
+  title={A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors (with Applications to Calibration, Regression Curves, and Simulation-Based Inference)},
+  author={Chatterjee, Anirban and Niu, Ziang and Bhattacharya, Bhaswar B},
+  journal={arXiv preprint arXiv:2407.16550},
+  year={2024}
+}]
 
