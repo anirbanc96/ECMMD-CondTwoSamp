@@ -58,7 +58,7 @@ To install the `NNCDT` package, follow these steps:
 ## Notes
 
 - Please refer to the README or instructions within each folder for futher details on each experiment.
-- **CIFAR10-Calibration and Simulation Based Inference**: These experiments use Python and Jupyter Notebook in addition to R scripts. More details about the setup and dependencies can be found in the `Simulation Based Inference` folder.
+- **CIFAR10-Calibration and Simulation Based Inference**: These experiments use Python and Jupyter Notebook in addition to R scripts. More details about the setup and dependencies can be found in the `CIFAR10-Calibration` and `Simulation Based Inference` folders respectively.
 - Make sure your R environment is set up with all the necessary packages listed in the scripts.
 
 ## License
