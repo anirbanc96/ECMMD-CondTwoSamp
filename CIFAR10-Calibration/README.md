@@ -85,10 +85,10 @@ The CNN architecture used in this experiment follows the design described in [Pa
 
 ## References
 
-- [Paper Title/Reference]: A detailed description of the CNN architecture used in this experiment.
-- ECMMD-based Test: The proposed test for validating the calibration of probabilistic models.
-- Expected Calibration Error (ECE): A metric used to quantify the calibration of probabilistic predictions.
-- Reliability Diagram: A visual tool for assessing the calibration of probabilistic predictions.
+- [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550): A detailed description of the CNN architecture used in this experiment.
+- ECMMD-based Test: The proposed test for validating the calibration of probabilistic models defined in [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550)
+- Expected Calibration Error (ECE): A metric used to quantify the calibration of probabilistic predictions. See Appendix in [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550) for more details.
+- Reliability Diagram: A visual tool for assessing the calibration of probabilistic predictions. See Appendix in [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550) for more details.
 
 ## License
 
