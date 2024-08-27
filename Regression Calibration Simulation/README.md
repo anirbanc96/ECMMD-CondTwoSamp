@@ -1,6 +1,6 @@
-# Simulation study on Validation of Calibration in Classification Models
+# Simulation study on Validation of Calibration in Regression Models
 
-This subfolder contains five R scripts for the simulated experiments on validation of calibration in classification models. Each script performs a specific task using the custom R package `NNCDT`, which is located in the parent directory of this repository.
+This subfolder contains five R scripts for the simulated experiments on validation of calibration in regression models. Each script performs a specific task using the custom R package `NNCDT`, which is located in the parent directory of this repository.
 
 ## Prerequisites
 
@@ -8,15 +8,15 @@ Before running any of the scripts, ensure that the `NNCDT` package is installed.
 
 ## Script Descriptions
 
-1. **`Type I Error.R`:** This script empirically evaluates the Type-I Error for sample sizes $n = 75, 100$. The implemented tests include:
+1. **`Type I Error.R`:** This script empirically evaluates the Type-I Error for sample sizes $n = 50, 75$. The implemented tests include:
    - ECMMD - Asymptotic and Derandomized
    - SKCE
 
-3. **`Power.R`:** This script empirically evaluates the Power for sample sizes $n = 75, 100$. The implemented tests include:
+3. **`Power.R`:** This script empirically evaluates the Power for sample sizes $n = 50, 75$. The implemented tests include:
    - ECMMD - Asymptotic and Derandomized
    - SKCE
 
-4. **`Time Comparison.R`:** Compares the computation time of SKCE and ECMMD based tests for $n=100$.
+4. **`Time Comparison.R`:** Compares the computation time of SKCE and ECMMD based tests for $n=75$.
 
 5. **`Figure.R`:** Plots the empirical Power and provides table for the empirical Type I error of the above implemented tests. This script has to be run after `Type I Error.R` and `Power.R` scripts.
 
