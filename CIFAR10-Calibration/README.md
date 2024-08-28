@@ -79,7 +79,7 @@ The CNN architecture used in this experiment follows the design described in [A 
 - Ensure that all required packages are installed in your environment before running the notebook. The necessary packages are listed at the beginning of the notebook.
 - The CIFAR-10 dataset is automatically downloaded from the official source if it is not already available in the environment.
 - The R scripts should be run in an environment where all necessary R packages are installed. These packages will be listed at the beginning of the scripts.
-- The `Predictions_TestLabels` folder contains the CSV files with the true labels and prediction probabilities, which are used for further analysis, calibration validation, and plotting the reliability diagram.
+- The `Predictions_TestLabels` folder contains the CSV files with the true labels and prediction probabilities, which are used for the downstream tasks of calibration validation and plotting the reliability diagram.
 - The `Results` folder stores the outputs of the ECMMD-based test and the computed ECE values.
 - The `Figures` folder contains the reliability diagrams and tables summarizing the proportion of rejections, which provide additional insights into the model's calibration performance.
 
