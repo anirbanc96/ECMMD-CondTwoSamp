@@ -1,6 +1,6 @@
 # Experiments for [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550)
 
-This repository contains the experiments conducted for the paper titled "[A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550)." The repository is organized into six different folders, each representing a separate experiment. Additionally, there is a custom R package named `NNCDT`, which is essential for running experiments in the folders `Classification Calibration Simulation`, `Conditional Goodness-of-Fit`, `Regression Calibration Simulation` and `Regression Curves - Wind Data`. 
+This repository contains the experiments conducted for the paper titled "[A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550)." The repository is organized into six different folders, each representing a separate experiment. Additionally, there is a custom R package named `NNCDT`, which is used for running experiments in the folders `Classification Calibration Simulation`, `Conditional Goodness-of-Fit`, `Regression Calibration Simulation` and `Regression Curves - Wind Data`. 
 
 ## Repository Structure
 
