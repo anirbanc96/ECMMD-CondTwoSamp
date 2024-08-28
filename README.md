@@ -14,7 +14,7 @@ This repository contains the experiments conducted for the paper titled "[A Kern
 
 ## Prerequisites
 
-Before running the experiments in the folders `Classification Calibration Simulation`, `Conditional Goodness-of-Fit`, `Regression Calibration Simulation` and `Regression Curves - Wind Data`. you need to install the `NNCDT` package. This package is custom-built and located in the `NNCDT` folder within this repository.
+Before running the experiments in the folders `Classification Calibration Simulation`, `Conditional Goodness-of-Fit`, `Regression Calibration Simulation` and `Regression Curves - Wind Data` you need to install the `NNCDT` package. This package is custom-built and located in the `NNCDT` folder within this repository.
 
 ### Installing the NNCDT Package
 
