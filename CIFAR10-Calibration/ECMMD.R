@@ -87,7 +87,7 @@ ECMMD.asymptotic.variance <- function(knn, X, Y, knn.graph, kernel.bandwidth){
     
     Term.1[i] <- sum((T1[, i] - T2[, i] - T3[, i] + T4[, i])^2)
     
-    # exclude the edges that are not two stars
+    # exclude the edges that are not neighbor of neighbors
     for (j in 1:(knn-1)) {
       if(!(i %in% knn.graph[knn.graph[i,j+1], ])){
         T1[j, i] <- 0
