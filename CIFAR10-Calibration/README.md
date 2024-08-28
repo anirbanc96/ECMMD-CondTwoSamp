@@ -71,7 +71,7 @@ This folder contains the necessary files for running a Convolutional Neural Netw
 
 ### Model Architecture
 
-The CNN architecture used in this experiment follows the design described in [Paper Title/Reference]. The architecture includes three convolutional layers interspersed with max-pooling layers. Post convolution a flattening transformation is used followed by a fully connected layer. For binary classification the output layer uses a softmax activation function.
+The CNN architecture used in this experiment follows the design described in [A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors](https://arxiv.org/abs/2407.16550). The architecture includes three convolutional layers interspersed with max-pooling layers. Post convolution a flattening transformation is used followed by a fully connected layer. For binary classification the output layer uses a softmax activation function.
 
 ## Notes
 
