@@ -4,7 +4,7 @@ This repository contains the experiments conducted for the paper titled "[A Kern
 
 ## Repository Structure
 
-- **CIFAR10-Calibration**: Contains all files and scripts related to validating calibration of convolutional neural networks on binary classification taks using the CIFAR-10 dataset.
+- **CIFAR10-Calibration**: Contains all files and scripts related to validating calibration of convolutional neural networks on binary classification tasks using the CIFAR-10 dataset.
 - **Classification Calibration Simulation**: Contains all files and scripts related to the simulated experiments on validation of calibration in binary classification models.
 - **Conditional Goodness-of-Fit**: Contains all files and scripts related to the experiment on Conditional Goodness-of-Fit tests. This experiment relies on the `NNCDT` package.
 - **Regression Calibration Simulation**: Contains all files and scripts related to the simulated experiments on validation of calibration in regression models. This experiment relies on the `NNCDT` package. 
