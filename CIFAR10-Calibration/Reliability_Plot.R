@@ -77,15 +77,15 @@ for (j in 1:ncol(name_mat)) {
                                   as.vector(unlist(label_test[, 1])), 
                                   n_bins=7)
   
-  cols <- c("Before Calibration"="dodgerblue","After Calibration"="coral")
+  cols <- c("Before Re-Calibration"="dodgerblue","After Re-Calibration"="coral")
   
   #' Plot the reliability diagram
   
   p <- ggplot(df1, aes(x = bin_accuracies, y = bin_confs)) +
     geom_abline(intercept = 0, slope = 1, linetype = "dotted", alpha = 0.4) +
-    geom_line(aes(color = "Before Calibration")) +
+    geom_line(aes(color = "Before Re-Calibration")) +
     geom_point(size=2, color = "navy") +
-    geom_line(data = df2, aes(x = bin_accuracies, y = bin_confs, color = "After Calibration")) +
+    geom_line(data = df2, aes(x = bin_accuracies, y = bin_confs, color = "After Re-Calibration")) +
     geom_point(data = df2, aes(x = bin_accuracies, y = bin_confs), size=2, color = "darkred") +
     labs(x = "Bin Frequency", y = "Average Predicted Probability",
          title = sprintf("Reliability Diagram for %s-%s Classification", class_a_u, class_b_u)) +
