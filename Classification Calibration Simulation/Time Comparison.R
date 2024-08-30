@@ -47,7 +47,7 @@ for (n in n_list) {
                                                                              Z = predictor),
                                                                  k = k, hyper = NULL,
                                                                  kernel_choice = "Linear",
-                                                                 num_derandom = 100,
+                                                                 num_derandom = 20,
                                                                  resampling_dist = "Binomial",
                                                                  resamp_hyper = list(mean = predictor[, 1]))$p_value)[[1]]
           }else{

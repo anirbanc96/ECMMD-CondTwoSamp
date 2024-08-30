@@ -27,7 +27,7 @@ pannel_cols <- c("coral", "darkorchid4", "dodgerblue4", "dodgerblue3",
 # ggplot
 plot_to_save <- data_to_plot |>
   ggplot(aes(x = method, y = time, color = method)) +
-  geom_boxplot() +
+  geom_boxplot(outlier.size = 0.5) +
   scale_y_log10() +
   labs(x = "method",
        y = "Time (seconds)") +
@@ -42,7 +42,7 @@ plot_to_save <- data_to_plot |>
   ) +
   scale_color_manual(labels = c("SKCE", "15 NN (asymp)","25 NN (asymp)",
                                 "15 NN (derandom)","25 NN (derandom)"), values = pannel_cols) +
-  scale_x_discrete(labels = c("SKCE", "NN15 (asymp)", "NN25 (asymp)", "NN15 (derandom)", "NN25 (derandom)")) +
+  scale_x_discrete(labels = c("SKCE", "NN15 \n (asymp)", "NN25 \n (asymp)", "NN15 \n (derandom)", "NN25 \n (derandom)")) +
   guides(color = guide_legend(
     ncol = 3,  # Set the legend to 2 columns
     byrow = TRUE, # Ensure items are filled by row
@@ -54,5 +54,5 @@ plot_to_save <- data_to_plot |>
 # save the plot
 ggsave(sprintf("Time%d.pdf", n),
        plot = plot_to_save,
-       width = 6,
-       height = 4)
+       width = 4.5,
+       height = 3.5)
