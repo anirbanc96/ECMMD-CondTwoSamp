@@ -22,7 +22,7 @@ devtools::install_local("NNCDT")
 
 ## Notes
 
-- Ensure that your R environment is correctly set up with all the necessary dependencies, which can be found at the top of the script `Regressio Example.R`.
+- Ensure that your R environment is correctly set up with all the necessary dependencies, which can be found at the top of the script `Regression Example.R`.
 
 ## License
 
