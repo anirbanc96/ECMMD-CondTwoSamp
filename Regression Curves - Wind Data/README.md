@@ -1,4 +1,4 @@
-# Data Analysis and Visualization
+# Regression Curves - Wind Energy Data
 
 This folder contains a dataset and an R script that performs the comparison of Regression Curves experiment. The `Inland_Offshore_Wind` folder includes four CSV files, from which we use the two files `Offshore Wind Farm Dataset2(WT3).csv` and `Offshore Wind Farm Dataset2(WT4).csv` corresponding to Offshore wind farms in our experiment.
 
